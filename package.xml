@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>fetch_stage</name>
+  <version>2.2.3</version>
+  <description>
+    Stage version of fetch simulation. Convenient to test 2D-navigation related stuffs
+
+    copied from the Turtlebot_stage package, written by Jorge Santos and maintained
+    by Jihoon Lee.
+  </description>
+
+  <maintainer email="whitesea@oregonstate.edu">Austin Whitesell</maintainer>
+  <author email="jorge@yujinrobot.com">Jorge Santos</author>
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/turtlebot_stage</url>
+  <url type="repository">https://github.com/turtlebot/turtlebot_simulator</url>
+  <url type="bugtracker">https://github.com/turtlebot/turtlebot_simulator/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>stage_ros</run_depend>
+  <run_depend>navigation</run_depend>
+  <run_depend>turtlebot_bringup</run_depend>
+  <run_depend>turtlebot_navigation</run_depend>
+  <run_depend>yocs_virtual_sensor</run_depend>
+  <run_depend>yocs_velocity_smoother</run_depend>
+</package>
